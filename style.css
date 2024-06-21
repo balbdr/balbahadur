@@ -173,7 +173,7 @@ nav{
   z-index: 2;
 }
 .link ul li a{
-  color: rgb(247, 245, 245);
+  color: red(247, 245, 245);
   text-decoration: none;
   font-size: 15px;
 z-index: 2;
