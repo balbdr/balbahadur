@@ -1,0 +1,381 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  width: 100%;
+  min-height: 115vh;
+  background-image: url("image2/survey.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  .clock{
+   /* background: blue;*/
+    height: 20vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+       margin: 5px;
+   margin-left: 5%;
+     padding: 5px 5px;  
+  }
+ 
+
+  .clock{
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0rem;
+    font-weight: bold;
+    /* margin-left: 10%;*/ 
+      padding: 5px 5px;
+  }
+
+<div class="clock">00:00:00</div>
+
+}/*
+  
+.watchh {
+  width: 15%;
+  background-color: rgba(255, 255, 255, 0.904); /* Transparent background 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 5vh;
+  margin: 10px;
+   margin-left: 10%;
+}
+
+.watchh {
+  font-size: 2em;
+  color: red;
+  background-color: rgba(17, 16, 17, 0.5); /* Transparent background 
+  padding: 20px;
+  border-radius: 5px;
+   margin-left: 10%;  
+}
+/*formbox start*/
+  .interest{
+   background-color: #eef4f5;   
+  margin: 5px;
+  padding: 5%;
+          }
+  .triangle{
+         background-color: #eef4f5;   
+  margin: 5px;
+  padding: 5%;
+          }
+      
+  .area{
+      background-color: #eef4f5;   
+  margin: 5px;
+  padding: 5%;
+          }
+  .convert{
+       background-color: #eef4f5;   
+  margin: 5px;
+  padding: 5%;
+  }
+  /* .interest{
+  background-color: #eef4f5;
+  display: flex;
+  flex-direction: column;
+  padding: 5vw 4vw;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;  
+   }*/
+  form{
+  background-color: #5eec71;
+  display: flex;
+  flex-direction: column;
+  padding: 5vw 4vw;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+form h2{
+  margin: 20px;
+  padding: 20%;
+}
+
+
+form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #fff;
+  font-size: 20px;
+}
+.input{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #fff;
+  font-size: 20px;
+}
+ form button{
+  padding: 15px;
+  background-color: rgb(255, 0, 55);
+  color: white;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 130px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+.formbox{
+  width: 70%;
+  min-height: 70vh;
+  background-color: aliceblue;
+  margin-left: 15%;
+  top: 15vh;
+  position: fixed;
+  z-index: 2;
+  text-align: center;
+ border-radius: 10px;
+ display:none;
+}
+
+  
+.formbox i{
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 2%;
+  background: rgb(146, 226, 146);
+}
+
+.link{
+  flex: 2;
+  text-align: center;
+
+}
+.link ul li{
+  list-style:none;
+  display: inline-block;
+  position: relative;
+  padding: 10px 10px;
+  z-index: 2;
+}
+.link ul li a{
+  color: rgb(247, 245, 245);
+  text-decoration: none;
+  font-size: 15px;
+z-index: 2;
+}
+.link ul li ::after{
+  contain:0 ;
+  width: 0;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: 0.2s;
+  z-index: 2;
+}
+.link ul li:hover::before{
+  width: 100%;
+}
+.textbox{
+  width: 25%;
+  position: absolute;
+  color: rgb(255, 0, 191);
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}/*
+ text bhandari tushara ko text size */
+.textbox h1{
+  font-size: 40px;
+  color:white;
+}
+.textbox p{
+  font-size: 20px;
+  color:rgb(255, 0, 0);
+}
+.about{
+  padding:5%;
+}
+.aboutus {
+  padding:5%;
+}
+/*
+.register-button{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid white;
+  padding: 12px 34px 5px 34px;
+  font-size: 10px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.register-button:hover{
+  border: 2px solid red;
+  background: red;
+  transition: 2s;
+
+  
+}*/
+nav i.fa{
+  display:none;
+}
+.photos{
+  overflow: hidden;
+  background-color: aquamrine
+}
+  /*
+.clock{
+    background: blue;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+  .clock{
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+  }
+
+<div class="clock">00:00:00</div>
+  }
+.watchh {
+  width: 50%;
+  background-color: blue;  Transparent background 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 100vh;
+  margin: 10px;
+   margin-left: 10%;
+}
+
+.watchh {
+  font-size: 4rem;
+  color: red;
+  color: white;  Transparent background 
+  padding: 10px;
+  border-radius: 5px;
+   margin-left: 10%; */ 
+}
+
+.page{
+  text-align: center;
+}
+
+/*
+
+@media(max-width:700px){
+  .textbox h1{
+      font-size: 25px;
+      background-position: center;
+      background-size: cover;
+      position: fixed;
+  
+  }
+  .link ul li{
+      display:block;
+  }
+  .link{
+      background :red;
+      position:fixed;
+      top: 0;
+      right: -200px;
+      height: 100vh;
+      width: 200px;
+      text-align: left;
+      z-index: 2;
+      transition: 1s;
+
+  }
+  nav i.fa{
+      display:block;
+      font-size: 20px;
+      cursor: pointer;
+      color:white;
+      margin: 10px;
+      text-align: left;
+  }
+}
+
+
+/*feature section start*/
+
+.feat{
+  text-align: center;
+}
+
+.branch-col img{
+  height: 500px;
+  height: 400px;
+  display: flex;
+  
+
+
+.row{
+  display: flex;
+  padding: 5%;
+  
+}
+
+.aboutus{
+  padding: 5%;
+}
+@media(max-width:700px){
+  .row{
+      flex-direction:column;
+      display: flex;
+      font-size: 15px;
+  padding: 5%;
+       background-position: center;
+      background-size: cover;
+      position: fixed;
+  }
+.aboutus{
+  font-size: 15px;
+  padding: 5%;
+}
+} 
+/* About us section starts*/
+.aboutus{
+  
+ 
+}
+
+/*form*/
+.form{
+  font-size: 15px;
+  padding: 20%;
+
+}
+
+@media(max-width:700px){
+   
+  .clock{
+   
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+    font-weight: bold;
+  }
