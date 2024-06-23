@@ -285,6 +285,14 @@ nav i.fa{
   text-align: center;
 }
 
+ @media(max-width:700px){
+   
+  .clock{
+    display: flex;
+    font-size: .5rem;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+  }
 /*
 
 @media(max-width:700px){
@@ -371,11 +379,3 @@ nav i.fa{
 
 }
 
- @media(max-width:700px){
-   
-  .clock{
-    display: flex;
-    font-size: .5rem;
-    letter-spacing: 0.3rem;
-    font-weight: bold;
-  }
