@@ -32,7 +32,7 @@
     font-weight: bold;
     /* margin-left: 10%;*/ 
       padding: 5px 5px;
-      text-align: left;
+      text-align: centre;
     
   }
 
@@ -295,7 +295,7 @@ nav i.fa{
     font-size: .5rem;
     letter-spacing: 0.3rem;
     font-weight: bold;
-      text-align:left ;
+      text-align:centre ;
     
   }
 /*
