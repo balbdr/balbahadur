@@ -210,7 +210,7 @@ z-index: 2;
 .textbox p{
   font-size: 15px;
   color:rgb(255, 0, 0);
-  text-align: left;
+  text-align: centre;
 }
 .about{
   padding:5%;
