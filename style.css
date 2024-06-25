@@ -32,6 +32,8 @@
     font-weight: bold;
     /* margin-left: 10%;*/ 
       padding: 5px 5px;
+      text-align: left;
+      justify-content: left;
   }
 
 <div class="clock">00:00:00</div>
@@ -196,9 +198,9 @@ z-index: 2;
   position: absolute;
   color: rgb(255, 0, 191);
   top:50%;
-  left:5%;
+  left:50%;
   transform: translate(-50%,-50%);
-  text-align: left;
+  text-align: centre;
 }/*
  text bhandari tushara ko text size */
 .textbox h1{
@@ -206,7 +208,7 @@ z-index: 2;
   color:white;
 }
 .textbox p{
-  font-size: 20px;
+  font-size: 15px;
   color:rgb(255, 0, 0);
   text-align: left;
 }
@@ -293,6 +295,8 @@ nav i.fa{
     font-size: .5rem;
     letter-spacing: 0.3rem;
     font-weight: bold;
+      text-align:left ;
+    
   }
 /*
 
