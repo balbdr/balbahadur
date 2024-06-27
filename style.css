@@ -204,11 +204,11 @@ z-index: 2;
 }/*
  text bhandari tushara ko text size */
 .textbox h2{
-  font-size: 40px;
+  font-size: 20px;
   color:white;
 }
 .textbox p{
-  font-size: 15px;
+  font-size: 10px;
   color:rgb(255, 0, 0);
   text-align: centre;
 }
