@@ -213,7 +213,8 @@ z-index: 2;
   text-align: centre;
 }
 .p clock{
-  font-size: 5px;
+   display: flex;
+  font-size: 10px;
   color:rgb(255, 0, 0);
   text-align: centre;
 }
