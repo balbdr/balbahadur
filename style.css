@@ -209,6 +209,7 @@ z-index: 2;
   color:white;
 }
 .textbox p {
+  display: flex;
   font-size: 10px;
   color:rgb(255, 0, 0);
   text-align: centre;
