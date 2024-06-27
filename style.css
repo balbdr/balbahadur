@@ -207,8 +207,13 @@ z-index: 2;
   font-size: 20px;
   color:white;
 }
-.textbox p clock{
+.textbox p {
   font-size: 10px;
+  color:rgb(255, 0, 0);
+  text-align: centre;
+}
+.p clock{
+  font-size: 5px;
   color:rgb(255, 0, 0);
   text-align: centre;
 }
