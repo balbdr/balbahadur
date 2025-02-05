@@ -25,7 +25,7 @@
  
 
   .clock{
-    display: block;
+    display: flex;
     color: red;
     font-family: 'Orbitron', sans-serif;
     font-size: 1.5rem;
